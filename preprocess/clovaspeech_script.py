@@ -5,10 +5,10 @@ import argparse
 
 
 class ClovaSpeechClient:
-    # Clova Speech invoke URL
-    invoke_url = 'https://clovaspeech-gw.ncloud.com/external/v1/410/901ef87c31296253069f069d3ac673f7f248b64f5bac55e373d37fdedb737471'
-    # Clova Speech secret key
-    secret = 'ae5ad6d12f834ff59c67028b9d283c33'
+    # Clova Speech invoke URL (Write your own URL)
+    invoke_url = ''
+    # Clova Speech secret key (Write your own secret key)
+    secret = ''
 
     def req_url(self, url, completion, callback=None, userdata=None, forbiddens=None, boostings=None, sttEnable=True,
                 wordAlignment=True, fullText=True, script='', diarization=None, keywordExtraction=None, groupByAudio=False):
